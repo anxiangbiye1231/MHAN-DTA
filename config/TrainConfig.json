@@ -1,0 +1,12 @@
+{
+    "train":
+    {
+        "model": "MHAN",
+        "data_root" : "/media/ST-18T/ljr/Datasets/MHAN/",
+        "save_dir" : "/media/ST-18T/ljr/DTA/MHAN-DTA/models",
+        "repeat" : 5,
+        "epochs" : 60,
+        "batch_size" : 8,
+        "save_model": true
+    }
+}
