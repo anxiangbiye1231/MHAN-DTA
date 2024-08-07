@@ -30,5 +30,7 @@ torch-geometric==2.5.2
 
 tqdm==4.66.2
 ## Usage:
+The URL of model: 链接：https://pan.baidu.com/s/15m-wyDQBaysJQ3hWphDOLg 提取码：td7c 
+
 Run `test.py` to achieve the results of article.
 
