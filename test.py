@@ -71,7 +71,6 @@ def main(config):
     labels2016_dict = {id[0]: id[1] for id in labels_2016.values}
     labels_hiq_dict = {id[0]: id[1] for id in labels_hiq.values}
 
-    print('数据集加载')
     dataset_complex = Diadataset(internal_test, labels_dict, prot_len=prot_len, pock_dis=pock_dis)
     dataset2013_complex = Diadataset(test_2013, labels2013_dict, prot_len=prot_len, pock_dis=pock_dis)
     dataset2016_complex = Diadataset(test_2016, labels2016_dict, prot_len=prot_len, pock_dis=pock_dis)
