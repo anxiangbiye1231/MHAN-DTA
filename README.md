@@ -19,7 +19,10 @@ This project contains several GNN-based models for protein-ligand binding affini
 - GraphDTA: https://github.com/thinng/GraphDTA   
 - MGraphGTA: https://github.com/guaguabujianle/MGraphDTA   
 - MPM-DTA: https://github.com/Jthy-af/HaPPy   
-- MMDTA: https://github.com/dldxzx/MMDTA   
+- MMDTA: https://github.com/dldxzx/MMDTA
+- Co-VAE：https://github.com/LiminLi-xjtu/CoVAE
+- MT-DTA: https://github.com/Lamouryz/MT-DTA/tree/main/MT-DTA
+- MDCT-DTA: https://github.com/zhengxin-plog/MD-CT-DTA  
 
 ## Requirements:
 biopython==1.79
