@@ -1,6 +1,16 @@
 # MHAN-DTA
-## Note 
+---
 MHAN-DTA: A Multiscale Hybrid Attention  Network for Drug-Target Affinity Prediction
+## Note 
+
+
+This project contains several GNN-based models for protein-ligand binding affinity prediction, which are mainly taken from
+PotentialNet: https://github.com/awslabs/dgl-lifesci/blob/master/python/dgllife/model/model_zoo/potentialnet.py
+GNN_DTI: https://github.com/jaechanglim/GNN_DTI
+IGN: https://github.com/zjujdj/InteractionGraphNet/tree/master
+SchNet: https://pytorch-geometric.readthedocs.io/en/latest/_modules/torch_geometric/nn/models/schnet.html
+GIGN：https://github.com/guaguabujianle/GIGN
+The baseline processing data, model training, and test scripts above are from GIGN
 
 ## Datasets:
 You can find processed test data from `./data`, and change the path to run.
