@@ -15,7 +15,6 @@ This project contains several GNN-based models for protein-ligand binding affini
 - GNN_DTI: https://github.com/jaechanglim/GNN_DTI  
 - IGN: https://github.com/zjujdj/InteractionGraphNet/tree/master  
 - SchNet: https://pytorch-geometric.readthedocs.io/en/latest/_modules/torch_geometric/nn/models/schnet.html  
-- GIGN：https://github.com/guaguabujianle/GIGN (The baseline processing data, model training, and test scripts above are from GIGN)  
 - GraphDTA: https://github.com/thinng/GraphDTA   
 - MGraphGTA: https://github.com/guaguabujianle/MGraphDTA   
 - MPM-DTA: https://github.com/Jthy-af/HaPPy   
