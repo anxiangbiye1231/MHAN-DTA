@@ -2,7 +2,7 @@
 ---
 MHAN-DTA: A Multiscale Hybrid Attention  Network for Drug-Target Affinity Prediction
 
-## Datasets:
+## Datasets
 All data used in this paper are publicly available and can be accessed here:  
 - PDBbind v2020: http://www.pdbbind.org.cn/download.php  
 - 2013 and 2016 core sets: http://www.pdbbind.org.cn/casf.php  
@@ -24,7 +24,7 @@ This project contains several GNN-based models for protein-ligand binding affini
 - MT-DTA: https://github.com/Lamouryz/MT-DTA/tree/main/MT-DTA
 - MDCT-DTA: https://github.com/zhengxin-plog/MD-CT-DTA  
 
-## Requirements:
+## Requirements
 biopython==1.79  
 networkx==3.2.1  
 numpy==1.23.5    
@@ -37,8 +37,10 @@ scipy==1.12.0
 torch==2.0.1     
 torch-geometric==2.5.2   
 tqdm==4.66.2  
+## Resource requirements
+We tested the training and inference time, along with the resource requirement of MHAN-DTA on a server computer embedded with a graphical card NVIDIA GeForce RTX4090D with a memory of 24G. MHAN-DTA takes 86 minutes to train. Once the training is finished, the model takes only 4.6 seconds for the internal test set, with an average of only 2.43 ms for each test sample. For the resource requirement, the training of MHAN-DTA costs 17520M of graphics memory.
 
-## Usage:
+## Usage
 We provide a demo to show how to train and test MHAN-DTA.   
 ### 1. Training 
 1. Firstly,  unzip the preprocessed data from `./data/train.tar.gz` and `./data/valid.tar.gz`.       
