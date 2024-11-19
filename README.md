@@ -48,7 +48,7 @@ We provide a demo to show how to train and test MHAN-DTA.
 1. Unzip the preprocessed data from `./data/internal_test.tar.gz`, `./data/test_2013.tar.gz`, `./data/test_2016.tar.gz` and `./data/test_hiq.tar.gz`.   
 2. Run test.py using `python test.py`.    
 3. You may need to modify some file paths in the source code before running it.    
-Or download the trained model from https://pan.baidu.com/s/15m-wyDQBaysJQ3hWphDOLg. Password：td7c   
+Or download the trained model from https://pan.baidu.com/s/1jCLGaUttW5UrNUtSjhrZyw?pwd=6e4d. Password：6e4d   
 ### 3. Process raw data  
 1. Run preprocessing.py using `python preprocessing.py`.       
 2. Run process_data.py using `python process_data.py`.    
